@@ -4,8 +4,14 @@ new Vue({
 		msg: "Hello, World!"
 	},
 	methods: {
-		helloWorld() {
+		helloWorldOriginal() {
 			return "Hello!";
+		},
+		helloWorld() {
+			console.log(this);
+		},
+		otherMethod: () => {
+			console.log(this);
 		}
 	}
 });
