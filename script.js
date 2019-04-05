@@ -1,7 +1,8 @@
 new Vue({
 	el: "#parent",
 	data: {
-		msg: "Hello, World!"
+		msg: "Hello, World!",
+		inputFieldValue: "Dummy Text Goes Here!"
 	},
 	methods: {
 		helloWorldOriginal() {
